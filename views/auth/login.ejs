@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ChemHubConnect</title>
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/auth.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Add your custom CSS here */
+    </style>
+</head>
+<body>
+    <main>
+        <section class="w-full h-screen bg-cover bg-center" style="background-image: url('/images/BTP_BG6.webp')">
+            <header class="mx-auto p-4">
+                <div class="flex items-center justify-between">
+                    <figure>
+                        <img src="/images/BG_LOGO0.png" class="w-16" alt="">
+                    </figure>
+                    <div class="ml-2">
+                        <h2 class="text-purple-500 text-3xl font-bold">ChemHUB</h2>
+                    </div>
+                    <div class="ml-auto flex space-x-4">
+                        <button class="text-white bg-purple-800 px-4 py-2 rounded-[10px] hover:bg-blue-700">About</button>
+                        <button class="text-white bg-purple-800 px-4 py-2 rounded-[10px] hover:bg-blue-700">Explore</button>
+                    </div>
+                </div>
+            </header>
+            <div class="max-w-[1170px] mx-auto text-center text-white">
+                <h1 class="sm:text-5xl text-3xl font-bold">Your Online Chemistry Equipment Store</h1>
+                <h4 class="text-3xl py-2 font-bold">Explore.Connect.Innovate</h4>
+                <div class="max-w-md mx-auto relative py-4">
+                    <form class="login-form" action="/login" method="POST">
+                        <div class="form-control mb-4">
+                            <label for="email" class="sr-only">E-Mail</label>
+                            <input type="email" name="email" id="email" class="block w-full border-[1px] border-[#ccc] bg-transparent h-12 pl-4 rounded-[10px]" placeholder="Email Address">
+                        </div>
+                        <div class="form-control mb-4">
+                            <label for="password" class="sr-only">Password</label>
+                            <input type="password" name="password" id="password" class="block w-full border-[1px] border-[#ccc] bg-transparent h-12 pl-4 rounded-[10px]" placeholder="Password">
+                        </div>
+                        <button class="bg-purple-800 text-white w-full font-bold px-6 py-2 rounded-[10px] hover:bg-blue-700 duration-300" type="submit">Log In</button>
+                    </form>
+                </div>
+                <h3 class="text-xl font-bold py-2">
+                    Don't have an account?
+                    <a href="#" class="text-blue-400 hover:underline">Sign Up</a>
+                </h3>
+            </div>
+        </section>
+    </main>
+<%- include('../includes/end.ejs') %> 
+</body>
+</html>
