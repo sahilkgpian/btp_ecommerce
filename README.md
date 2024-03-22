@@ -26,7 +26,6 @@ It extracts the email and password from the request body submitted by the user.I
 It saves the session using req.session.save() to ensure that the session data is stored in the session store.
 Finally, it redirects the user to the homepage
 
-![btp6](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/5896a172-b94d-45bb-abb9-251260dcdb4e)
 ![btp7](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/96d7e94e-1df9-4ea9-8331-298a58895cc0)
 ![btp8](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/23528c0d-6f7e-45a9-bdc5-612c02e7fee0)
 ![btp9](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/55a6f2d2-0943-4f0c-9f44-96b267e3bd41)
