@@ -13,6 +13,9 @@ Below is the homepage of the website.All the products,their description are disp
  Here,Mongoose is connected to MongoDB database specified by the MONGODB_URI. Upon successful connection, it starts the application listening on port 3000
 
 ![btp3](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/4d91e459-72a5-4919-83ce-b5c8b1d8de9e)
+
+This code sets up a session middleware using Express.js and MongoDB for session storage.It first imports the express-session package, which provides session middleware for Express.js.Then we import the connect-mongodb-session package and initializes it with the express-session middleware. This allows the session data to be stored in a MongoDB database.Then we create a new instance of the MongoDB session store, specifying the MongoDB connection URI 
+
 ![btp4](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/9296c399-b3d8-4b3f-a974-2f3001c91103)
 ![btp5](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/e999f123-7010-4e90-9da0-43b80ae559fd)
 ![btp6](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/5896a172-b94d-45bb-abb9-251260dcdb4e)
