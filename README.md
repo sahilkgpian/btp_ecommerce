@@ -57,6 +57,14 @@ This method removes a product from the user's cart based on its productId.It fil
 
 ![btp15](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/36d71cd6-5449-46ff-98a5-c8bf0acea92f)
 
+The data represents an user with an ID,an email and a password has been securely hashed Additionally, the user has items in their shopping cart, with each item represented as an object containing a productId and quantity.
+
 ![btp16](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/2b3f61e6-f668-4ddb-a2e5-9b7b34fb6aed)
+
+This session data represents a user's session stored in MongoDB, containing information about the user's authentication status and shopping cart items.Cookie: Contains information about the session cookie.User Data: Contains details about the authenticated user.Cart: Contains items in the user's shopping cart.Each item object includes: unique productId & quantity of the product in the cart.
+
 ![btp17](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/b80a1b06-da58-4106-9c64-3339e537402b)
+
+And below is the product data in MongoDB where it stores unique productId,title,price,description,imageUrl and the corresponding UserId.
+
 ![btp18](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/261ea601-61e8-427b-90de-56aaf18b1d42)
