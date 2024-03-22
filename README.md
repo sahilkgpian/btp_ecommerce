@@ -9,7 +9,9 @@ Here is the Login page
 Below is the homepage of the website.All the products,their description are displayed.
 
 ![btp_pt2](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/306bbd48-5063-4086-af31-27fc05f3526d)
-![btp2](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/1409a048-0f9d-49e3-928f-6f47b65ff7f4)
+
+ Here,Mongoose is connected to MongoDB database specified by the MONGODB_URI. Upon successful connection, it starts the application listening on port 3000
+
 ![btp3](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/4d91e459-72a5-4919-83ce-b5c8b1d8de9e)
 ![btp4](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/9296c399-b3d8-4b3f-a974-2f3001c91103)
 ![btp5](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/e999f123-7010-4e90-9da0-43b80ae559fd)
