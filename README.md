@@ -5,7 +5,7 @@ UI of the Chem Ecommerce Website
 Here is the Login page 
 
 ![btp_pt1](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/89db7889-d3b3-407e-8f71-90d49b5443c5)
-
+![btp_pt2](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/306bbd48-5063-4086-af31-27fc05f3526d)
 ![btp2](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/1409a048-0f9d-49e3-928f-6f47b65ff7f4)
 ![btp3](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/4d91e459-72a5-4919-83ce-b5c8b1d8de9e)
 ![btp4](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/9296c399-b3d8-4b3f-a974-2f3001c91103)
@@ -17,6 +17,10 @@ Here is the Login page
 ![btp10](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/d602116b-176c-4bb2-977d-c9029c9f6b51)
 ![btp11](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/49bd5e66-e2e1-48b7-9a4d-935504ebc86a)
 
+![btp12](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/5c15cdde-991d-4500-981e-cc15ca74fc00)
+![btp13](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/9b5d8be1-4ba9-44c8-9bbf-86d5f37aeefe)
+![btp14](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/d1a9d540-201a-4bc3-b9d7-5bbaf4a006ab)
 ![btp15](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/36d71cd6-5449-46ff-98a5-c8bf0acea92f)
 
-![btp14](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/dc31b801-7d28-4d55-a9b3-e4ee4283803d)
+![btp17](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/b80a1b06-da58-4106-9c64-3339e537402b)
+![btp18](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/261ea601-61e8-427b-90de-56aaf18b1d42)
