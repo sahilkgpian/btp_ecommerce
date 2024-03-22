@@ -34,15 +34,15 @@ This code sets up Multer to handle file uploads, ensures that only images with s
 
 This code snippet defines a Mongoose schema for products and exports it as a model named 'Product'. Here's what it does:Schema Definition:It defines a schema for products using mongoose.Schema.The schema includes fields such as title, price, description, imageUrl, and userId.Model Export:The schema is exported as a Mongoose model named 'Product' using mongoose.model('Product', productSchema).
 
+![btp10](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/d602116b-176c-4bb2-977d-c9029c9f6b51)
 
 This function handles the creation of new products.It extracts product information such as title, price, description, and image from the request body.It creates a new product instance using the Product model with the extracted information.It saves the newly created product to the database.If successful, it redirects the user to the admin products page; otherwise, it logs any errors.
 
-![btp10](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/d602116b-176c-4bb2-977d-c9029c9f6b51)
+![btp11](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/49bd5e66-e2e1-48b7-9a4d-935504ebc86a)
 
 It retrieves the product ID, updated title, price, description, and image from the request body.It finds the product by ID and updates and saves in database.
 
 
-![btp11](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/49bd5e66-e2e1-48b7-9a4d-935504ebc86a)
 
 ![btp12](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/5c15cdde-991d-4500-981e-cc15ca74fc00)
 ![btp13](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/9b5d8be1-4ba9-44c8-9bbf-86d5f37aeefe)
