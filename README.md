@@ -17,7 +17,15 @@ Below is the homepage of the website.All the products,their description are disp
 This code sets up a session middleware using Express.js and MongoDB for session storage.It first imports the express-session package, which provides session middleware for Express.js.Then we import the connect-mongodb-session package and initializes it with the express-session middleware. This allows the session data to be stored in a MongoDB database.Then we create a new instance of the MongoDB session store, specifying the MongoDB connection URI 
 
 ![btp4](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/9296c399-b3d8-4b3f-a974-2f3001c91103)
+
+Then we configure the session middleware for Express.js We define a middleware function that checks if a user is authenticated based on the session data. If the req.session.user property exists (indicating that a user is logged in), it retrieves the user's data from the database using User.findById() and assigns it to req.user.
+
 ![btp5](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/e999f123-7010-4e90-9da0-43b80ae559fd)
+
+It extracts the email and password from the request body submitted by the user.It searches for a user in the database with the provided email using User.findOne({ email: email }).If no user is found, it redirects the user back to the login page.)If a user with the provided email is found, it uses bcrypt.compare() to compare the provided password with the hashed password stored in the database.If the passwords match, it sets the isLoggedIn flag and stores the user object in the session (req.session.isLoggedIn = true; req.session.user = user;).
+It saves the session using req.session.save() to ensure that the session data is stored in the session store.
+Finally, it redirects the user to the homepage
+
 ![btp6](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/5896a172-b94d-45bb-abb9-251260dcdb4e)
 ![btp7](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/96d7e94e-1df9-4ea9-8331-298a58895cc0)
 ![btp8](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/23528c0d-6f7e-45a9-bdc5-612c02e7fee0)
