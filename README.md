@@ -34,7 +34,6 @@ This code sets up Multer to handle file uploads, ensures that only images with s
 
 This code snippet defines a Mongoose schema for products and exports it as a model named 'Product'. Here's what it does:Schema Definition:It defines a schema for products using mongoose.Schema.The schema includes fields such as title, price, description, imageUrl, and userId.Model Export:The schema is exported as a Mongoose model named 'Product' using mongoose.model('Product', productSchema).
 
-![btp9](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/55a6f2d2-0943-4f0c-9f44-96b267e3bd41)
 
 This function handles the creation of new products.It extracts product information such as title, price, description, and image from the request body.It creates a new product instance using the Product model with the extracted information.It saves the newly created product to the database.If successful, it redirects the user to the admin products page; otherwise, it logs any errors.
 
