@@ -5,6 +5,9 @@ UI of the Chem Ecommerce Website
 Here is the Login page 
 
 ![btp_pt1](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/89db7889-d3b3-407e-8f71-90d49b5443c5)
+
+Below is the homepage of the website.All the products,their description are displayed.
+
 ![btp_pt2](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/306bbd48-5063-4086-af31-27fc05f3526d)
 ![btp2](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/1409a048-0f9d-49e3-928f-6f47b65ff7f4)
 ![btp3](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/4d91e459-72a5-4919-83ce-b5c8b1d8de9e)
@@ -22,5 +25,6 @@ Here is the Login page
 ![btp14](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/d1a9d540-201a-4bc3-b9d7-5bbaf4a006ab)
 ![btp15](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/36d71cd6-5449-46ff-98a5-c8bf0acea92f)
 
+![btp16](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/2b3f61e6-f668-4ddb-a2e5-9b7b34fb6aed)
 ![btp17](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/b80a1b06-da58-4106-9c64-3339e537402b)
 ![btp18](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/261ea601-61e8-427b-90de-56aaf18b1d42)
