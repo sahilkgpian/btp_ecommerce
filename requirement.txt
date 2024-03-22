@@ -1,0 +1,7 @@
+First clone the website or download the zip file and extract the folder.
+
+After that go to the terminal and run npm install to install all the packages of npm(node package manager)
+
+After that download MongoDB Compass for storing the database and replace the MongoDB URI(in app.js) with your local MongoDB compass URI in your local.
+
+Later run npm strat and view the website on localhost 3000.
