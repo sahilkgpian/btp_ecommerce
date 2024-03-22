@@ -42,11 +42,19 @@ This function handles the creation of new products.It extracts product informati
 
 It retrieves the product ID, updated title, price, description, and image from the request body.It finds the product by ID and updates and saves in database.
 
-
-
 ![btp12](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/5c15cdde-991d-4500-981e-cc15ca74fc00)
+
+This code defines a Mongoose schema for users and extends it with methods to manipulate the user's shopping cart.
+
 ![btp13](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/9b5d8be1-4ba9-44c8-9bbf-86d5f37aeefe)
+
+This method adds a product to the user's cart.It checks if the product already exists in the cart based on its productId.If the product exists, it increases its quantity by one; otherwise, it adds the product to the cart with a quantity of one.It then updates the user's cart and saves the changes to the database.
+
+
 ![btp14](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/d1a9d540-201a-4bc3-b9d7-5bbaf4a006ab)
+
+This method removes a product from the user's cart based on its productId.It filters out the item with the specified productId from the cart items array.It updates the user's cart and saves the changes to the database.
+
 ![btp15](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/36d71cd6-5449-46ff-98a5-c8bf0acea92f)
 
 ![btp16](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/2b3f61e6-f668-4ddb-a2e5-9b7b34fb6aed)
