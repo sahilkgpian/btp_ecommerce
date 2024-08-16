@@ -1,14 +1,4 @@
-# btp_ecommerce
-
-UI of the Chem Ecommerce Website
-
-Here is the Login page 
-
-![btp_pt1](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/89db7889-d3b3-407e-8f71-90d49b5443c5)
-
-Below is the homepage of the website.All the products,their description are displayed.
-
-![btp_pt2](https://github.com/sahilkgpian/btp_ecommerce/assets/137074146/306bbd48-5063-4086-af31-27fc05f3526d)
+# This fully functional e-commerce website featuring secure user authentication with bcrypt-encrypted passwords, along with a password reset system powered by Nodemailer and SendGrid. Users can browse products, add items to their cart, and place orders, while admins can manage the product catalog by adding, editing, or deleting products. The platform includes CSRF protection, session management, and cookies for enhanced security. Stripe integration handles payment processing and generates PDF invoices. The website's frontend is built with React.js and Tailwind CSS, while Node.js, Express.js, and MongoDB form the backend and database infrastructure
 
  Here,Mongoose is connected to MongoDB database specified by the MONGODB_URI. Upon successful connection, it starts the application listening on port 3000
 
